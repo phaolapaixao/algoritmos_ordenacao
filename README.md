@@ -125,8 +125,7 @@ Copiar
 Editar
 ordenacao.exe
 ```
-Desenvolvido por [Phaola Paraguai da Paixão Lustosa]
-Sinta-se à vontade para contribuir ou adaptar este projeto!
+👩‍💻 **Desenvolvido por [Phaola Paraguai da Paixão Lustosa]**
 
 
 
