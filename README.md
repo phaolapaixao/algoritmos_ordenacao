@@ -58,3 +58,15 @@ typedef struct {
     char nome[100];
     int idade;
 } Pessoa;
+
+
+## 🚀 Como Executar
+
+### 1. Pré-requisitos  
+Tenha um compilador C instalado:
+
+- **Windows**: MinGW ou Code::Blocks  
+- **Linux**:
+  ```bash
+  sudo apt update
+  sudo apt install gcc
