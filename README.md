@@ -59,14 +59,74 @@ typedef struct {
     int idade;
 } Pessoa;
 
+```
+
+## 📊 Desempenho dos Algoritmos de Ordenação
+
+| Algoritmo      | Trocas | Comparações | Tempo (média de 5 execuções) |
+|----------------|--------|-------------|-------------------------------|
+| Selection Sort | 299    | 46.360      | 0.0 ms                        |
+| Insertion Sort | 25.307 | 25.319      | 0.6 ms                        |
+| Bubble Sort    | 25.020 | 46.360      | 4.3 ms                        |
+
+> ℹ️ **Obs:** Os dados de tempo são médias calculadas a partir de 5 execuções consecutivas.
+
+Diante dos resultados conclui-se que o Selection Sort possui melhor desempenho em comparacão com os outros algoritmos de ordenação apresentados
 
 ## 🚀 Como Executar
 
 ### 1. Pré-requisitos  
 Tenha um compilador C instalado:
 
-- **Windows**: MinGW ou Code::Blocks  
+- **Windows**: MinGW, VsCode ou Code::Blocks  
 - **Linux**:
   ```bash
   sudo apt update
   sudo apt install gcc
+  
+  ```
+### 2. Baixar o Projeto
+Via Git:
+```bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
+```
+
+Ou via ZIP:
+Acesse o repositório no GitHub
+
+Clique em Code > Download ZIP
+
+Extraia os arquivos no seu computador
+
+### 3. Compilar o Código
+No terminal, execute:
+
+````bash
+Copiar
+Editar
+gcc main.c -o ordenacao
+````
+
+### 4. Executar o Programa
+Linux/Mac:
+```bash
+Copiar
+Editar
+./ordenacao
+```
+Windows:
+
+```bash
+Copiar
+Editar
+ordenacao.exe
+```
+Desenvolvido por [Phaola Paraguai da Paixão Lustosa]
+Sinta-se à vontade para contribuir ou adaptar este projeto!
+
+
+
